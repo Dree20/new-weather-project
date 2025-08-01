@@ -3,43 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+QLD:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>🦋Butterfly Weather App🦋</title>
   </head>
   <body>
-    <head>
-      <div>
-        <div>
-      <form>
-        <input
-          type ="seach"
-          placeholder="Enter a city..."
-          required
-          autocomplete="off"
-        />
-        <input type ="submit" value="Search" />
-      </form>
-      <h1>Toronto</h1>
-    </head>
-    <main>
-      <p>
-        Friday 13:08, partly sunny <br />
-        Humidity: 52%, Wind: 7.72km/h
-      </p>
+    <div class="search-form">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            autocomplete="off"
+            class="input-city"
+          />
+          <input type="submit" value="Search🦋" class="input-search" />
+        </form>
+      </header>
+      <main>
+        <h1 class="input-place">Toronto</h1>
+        <div class="weather-info">
+          <p class="weather-info-2">
+            Friday 13:08, partly sunny <br />
+            Humidity: <strong>52%</strong>, Wind: <strong> 7.72</strong>km/h
+          </p>
+          <div class="weather-info-3"
+          <span class="weather-icon">🌤️</span>
+          <span class="weather-temp">21</span
+          ><span class="weather-unit">°C</span>
+        </div>
+      </main>
+
+      <footer>
+        This project was coded by
+        <a href=" https://github.com/Dree20">Dreanna </a>, is<a
+          href="https://github.com/Dree20/new-weather-project"
+        >
+          open-sourced on GitHub</a
+        >
+        and
+        <a href="https://butterfly-weather-app.netlify.app/">
+          hosted on Netlify</a
+        >
+      </footer>
     </div>
-     <div> 🌤️ 21°C </div>
-    </main>
-  </div>
-    <footer>
-      This project was coded by
-      <a href=" https://github.com/Dree20">Dreanna </a>, is<a
-        href="https://github.com/Dree20/new-weather-project"
-      >
-        open-sourced on GitHub</a
-      >
-      and
-      <a href="https://butterfly-weather-app.netlify.app/">
-        hosted on Netlify</a
-      >
-    </footer>
   </body>
 </html>
