@@ -45,7 +45,7 @@ main {
   font-weight: 500;
   margin: 2px;
   margin-top: 5px;
-  line-height: 48px;
+  line-height: 55px;
   padding: 5px;
 }
 .weather-info {
@@ -65,8 +65,8 @@ main {
 .weather-icon {
   position: relative;
   right: 20px;
-  bottom: 5px;
-  font-size: 50px;
+  bottom: 10px;
+  font-size: 48px;
 }
 .weather-temp {
   font-size: 65px;
