@@ -2,6 +2,10 @@ body {
   background-color: #cadff5;
   font-family: "Edu NSW ACT Cursive", cursive;
 }
+a {
+  color: #85b6ed;
+  font-weight: 900;
+}
 .search-form {
   background: #f2f1f5;
   margin: 50px auto;
@@ -32,14 +36,16 @@ header {
   font-family: "Edu NSW ACT Cursive", cursive;
 }
 main {
-  padding: 5px 0;
+  padding: 30px 0;
 }
 
 .input-place {
   font-size: 55px;
   font-weight: 500;
-  margin: 0;
-  padding: auto;
+  margin: 2px;
+  margin-top: 5px;
+  line-height: 48px;
+  padding: 5px;
 }
 .weather-info {
   display: flex;
@@ -49,27 +55,30 @@ main {
 .weather-info-2 {
   font-weight: 400;
   font-size: 20px;
-  margin-top: 0;
+  line-height: 32px;
+  padding: 5px;
 }
 .weather-details {
   display: flex;
 }
 .weather-icon {
   position: relative;
-  bottom: 80px;
-  right: 10px;
-  font-size: 45px;
+  right: 20px;
+  bottom: 5px;
+  font-size: 50px;
 }
 .weather-temp {
   font-size: 65px;
-  bottom: 100px;
   position: relative;
+  bottom: 25px;
   font-weight: 500;
+  right: 15px;
 }
 .weather-unit {
   position: relative;
-  bottom: 80px;
   font-size: 18px;
+  bottom: 10px;
+  right: 15px;
 }
 footer {
   border-top: 1px solid #cadff5;

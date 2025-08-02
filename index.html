@@ -13,7 +13,7 @@
     <title>🦋Butterfly Weather App🦋</title>
   </head>
   <body>
-    <div class="search-form">
+    <div class="search-form" id="search-form">
       <header>
         <form>
           <input
@@ -22,17 +22,21 @@
             required
             autocomplete="off"
             class="input-city"
+            id="input-city"
           />
           <input type="submit" value="Search🦋" class="input-search" />
         </form>
       </header>
       <main>
-        <h1 class="input-place">Toronto</h1>
         <div class="weather-info">
-          <p class="weather-info-2">
-            Friday 13:08, partly sunny <br />
-            Humidity: <strong>52%</strong>, Wind: <strong> 7.72</strong>km/h
-          </p>
+          <div>
+            <h1 class="input-place" id="new-city">Toronto</h1>
+            <p class="weather-info-2">
+              Friday 13:08, partly sunny
+              <br />
+              Humidity: <strong>52%</strong>, Wind: <strong> 7.72</strong>km/h
+            </p>
+          </div>
           <div class="weather-details">
             <span class="weather-icon">🌤️</span>
             <span class="weather-temp">21</span
@@ -54,5 +58,6 @@
         >
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
