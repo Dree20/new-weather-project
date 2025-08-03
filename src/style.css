@@ -49,6 +49,8 @@ main {
   margin-top: 5px;
   line-height: 40px;
   padding: 5px 0 0 0;
+  position: relative;
+  right: -15px;
 }
 .weather-info {
   display: flex;
