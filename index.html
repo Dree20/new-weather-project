@@ -31,16 +31,18 @@
       <main>
         <div class="weather-info">
           <div>
-            <h1 class="input-place" id="change-city">Toronto</h1>
+            <h1 class="input-place" id="change-city"></h1>
             <p class="weather-info-2">
-              Friday 13:08, partly sunny
+              <span id="time"></span>,
+              <span id="description"></span>
               <br />
-              Humidity: <strong>52%</strong>, Wind: <strong> 7.72</strong>km/h
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-details">
-            <span class="weather-icon">🌤️</span>
-            <span class="weather-temp" id="temperature">21</span
+            <span class="weather-icon" id="icon"></span>
+            <span class="weather-temp" id="temperature"></span
             ><span class="weather-unit">°C</span>
           </div>
         </div>
