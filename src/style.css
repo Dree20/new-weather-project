@@ -90,9 +90,9 @@ main {
   right: 5px;
 }
 .weather-forecast {
+  margin-top: 30px;
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
 }
 .forecast-date {
   text-align: center;
@@ -106,10 +106,10 @@ main {
   text-align: center;
 }
 .forecast-temperatures {
-  display: flex;
-  justify-content: center;
   margin-top: 10px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .forecast-temperature {
   padding: 0 10px;
