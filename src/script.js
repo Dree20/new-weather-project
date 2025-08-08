@@ -60,7 +60,7 @@ function getForecast(city) {
 }
 
 function displayForecast(response) {
-  console.log(response.data);
+  console.log(response);
 
   let days = ["Mon", "Tue", "Wed", " Thu", "Fri"];
   let forecastHtml = "";
@@ -74,7 +74,8 @@ function displayForecast(response) {
             <div class="forecast-icon">⛅</div>
             <div class="forecast-temperatures">
               <div class="forecast-temperature">
-               <strong>25º</strong></div>
+               <strong>25º</strong>
+               </div>
                <div class="forecast-temperature">17º</div>
             </div>
             </div>
